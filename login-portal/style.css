@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+html,body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items:center;
+    background: #f1f2f2;
+    background: -webkit-linear-gradient(left,#003cc0,#8d95da);
+}
+.container{
+    max-width: 400px;
+    box-shadow: 5px 15px 20px rgba(0,0,0,0.1);
+    background: #fff;
+    padding: 30px;
+}
+.container .innercont{
+    display: flex;
+    width: 200%;
+}
+.container .innercont .login,.sign{
+    width: 50%;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+.container .formcont{
+    width:100%;
+}
+
+.formincont form .f1{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+.formincont form .f1 input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    border-bottom-width: 4px;
+
+}
+.formincont form .f1 input:focus{
+    border-color: #0c59ff;
+    
+
+}
+
+.formincont form .signup{
+    margin: 25px;
+}
+.formincont form .signup a{
+    color: #4046a5;
+    text-decoration: none;
+}
+.formincont form .signup a:hover{
+    text-decoration: underline;
+}
+.formincont form input[type="submit"]{
+    color: #fff;
+    padding-left: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    
+    background: -webkit-linear-gradient(left ,#003cc0,#8d95da);
+
+}
